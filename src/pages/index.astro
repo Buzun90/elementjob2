@@ -1,0 +1,2300 @@
+---
+import BaseLayout from "src/layouts/BaseLayout.astro";
+import CTA from "@components/CTA.astro";
+import { Image } from "astro:assets";
+
+// maak voor elke image een variable, bijvoorbeeld landingImage, meetingImage, etc.
+// importeer de image in de variable 
+// gebruik de variable in de <img> tag
+// zorg dat de width en height overeenkomen met de originele afmetingen van de image
+// zorg dat de alt tekst beschrijft wat er op de image staat
+
+import meetingImage from "../assets/images/landing.png";
+import airconditioning from "../assets/images/diensten/Airconditioning.jpg";
+import airfinbanken from "../assets/images/diensten/Airfinbanken.jpg";
+import diepteReiniging from "../assets/images/diensten/diepte reiniging keuken.png";
+import condensors from "../assets/images/diensten/Drycoolers.jpeg";
+import fancoilUnits from "../assets/images/diensten/Fancoil Units Inductie Units.jpg";
+import luchtverdeelslangen from "../assets/images/diensten/Luchtverdeelslangen.jpg";
+import zonnepanelen from "../assets/images/diensten/Zonnepanelen.jpg";
+import ruimteDesinfectie from "../assets/images/diensten/Ruimte Desinfectie.jpg";
+import koelcellen from "../assets/images/diensten/Koelcellen.png";
+import koelmeubelen from "../assets/images/diensten/Koelmeubelen.png";
+import luchtbehandelingskasten from "../assets/images/diensten/luchtbehandelingskasten.jpg";
+import machinekamer from "../assets/images/diensten/Machinekamer.jpeg";
+import ventilatoren from "../assets/images/diensten/Ventilatoren.jpg";
+import verdamperLuchtkoelers from "../assets/images/diensten/Verdamper Luchtkoelers.jpg";
+import warmtewisselaar from "../assets/images/diensten/Warmtewisselaar.png";
+import legionellabeheer from "../assets/images/diensten/Home1.jpeg"; // Using home1 as replacement
+
+import home1 from "../assets/images/diensten/Home1.jpeg"
+import home2 from "../assets/images/diensten/home2.jpeg"
+
+
+
+---
+
+<BaseLayout
+  title="Pixel Perfect Websites"
+  description="Meta description for the page"
+>
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-1949">
+  <div class="cs-container">
+      <div class="cs-content">
+          <h1 class="cs-title">Professioneel Onderhoud voor de Utiliteitsbouw in de Randstad</h1>
+          <p class="cs-text">Elementjob biedt gespecialiseerde onderhoudsdiensten in Noord-Holland, Zuid-Holland en de hele Randstad. Van onderhoud aan klimaattechniek tot aan diverse reinigingswerkzaamheden, wij zorgen voor efficiënte werking van uw bouwkundige installaties.</p>
+          <a href="#services-1254" class="cs-button-solid scroll-to-services">Ontdek Onze Diensten</a>
+      </div>
+      <ul class="cs-card-group">
+          <li class="cs-item">
+              <h3 class="cs-h3">Airconditioning</h3>
+              <p class="cs-item-text">
+                  Professioneel onderhoud voor optimale koeling in de Randstad.
+              </p>
+          </li>
+          <li class="cs-item">
+              <h3 class="cs-h3">Luchtbehandeling</h3>
+              <p class="cs-item-text">
+                  Specialistisch onderhoud van luchtbehandelingsinstallatie in Noord- en Zuid-Holland.
+              </p>
+          </li>
+          <li class="cs-item">
+              <h3 class="cs-h3">Zonnepanelen</h3>
+              <p class="cs-item-text">
+                  Effectief onderhoud door reiniging van panelenvoor maximale opbrengst in de hele Randstad.
+              </p>
+          </li>
+          <li class="cs-item">
+              <h3 class="cs-h3">Koelsystemen</h3>
+              <p class="cs-item-text">
+                  Deskundig reiniging van koelcellen en koelmeubelen in de regio.
+              </p>
+          </li>
+      </ul>
+  </div>
+
+  <!-- Background Image, there's a background image in the CSS for the parallax effect you'll need to change as well if you swap out our images -->
+  <picture class="cs-background">
+      <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Landscapes/architect.jpeg">
+      <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Landscapes/architect.jpeg">
+      <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Landscapes/architect.jpeg" alt="Professioneel onderhoud van klimaatsystemen in de Randstad" width="2250" height="1500" aria-hidden="true">
+  </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                Waarom Elementjob             -->
+<!-- ============================================ -->
+
+<section id="why-choose-1657">
+  <div class="cs-container">
+      <div class="cs-content">
+          <div class="cs-flex">
+              <span class="cs-topper">Waarom Elementjob?</span>
+              <h2 class="cs-title">Optimaal Onderhoud voor Uw Klimaatsystemen</h2>
+          </div>
+          <ul class="cs-ul">
+              <li class="cs-li">
+                  <span class="cs-number">01</span>
+                  <p class="cs-li-text">
+                      Specialistische expertise: Ons team van experts is gespecialiseerd in het onderhoud van diverse klimaatsystemen, van airconditioning tot zonnepanelen, voor optimale prestaties en energiebesparing.
+                  </p>
+              </li>
+              <li class="cs-li">
+                  <span class="cs-number">02</span>
+                  <p class="cs-li-text">
+                      Uitgebreid dienstenpakket: We bieden een breed scala aan onderhoudsdiensten, waaronder luchtbehandeling, koelsystemen en zonnepanelen maar ook diverse schoonmaakdiensten, allemaal afgestemd op de specifieke behoeften van uw bedrijf.
+                  </p>
+              </li>
+              <li class="cs-li">
+                  <span class="cs-number">03</span>
+                  <p class="cs-li-text">
+                      Gemotiveerd en betrouwbaar: Met onze jonge team en focus op klanttevredenheid zorgen we voor betrouwbare dienstverlening en flexibiliteit.
+                  </p>
+              </li>
+          </ul>
+      </div>  
+      <div class="cs-wrapper">
+          <img
+              src={home1.src}
+              alt="Elementjob team aan het werk"
+              class="cs-picture"
+              loading="lazy"
+              decoding="async"
+          />
+
+          <p class="cs-review">
+              <svg class="cs-quote" preserveAspectRatio="none" viewBox="0 0 100 93" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity=".4" clip-path="url(#a)" fill="var(--quoteColor)"><path d="M22.94 84H0L18.305.854H55L22.94 84ZM67.94 84H45L63.305.854H100L67.94 84Z"/></g><defs><clipPath id="a-1657"><path fill="#fff" transform="translate(0 .854)" d="M0 0h100v83.146H0z"/></clipPath></defs></svg>
+
+              Elementjob staat voor JONG & FLEXIBEL. Ons jonge team zorgt ervoor dat uw systemen optimaal presteren, energie besparen en een gezonde werkomgeving creëren.
+          </p>
+      </div>
+  </div>
+</section>    
+
+<!-- ============================================ -->
+<!--                    Diensten                  -->
+<!-- ============================================ -->
+
+<section id="services-1254">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex-group">
+                <span class="cs-topper">Onze Diensten</span>
+                <h2 class="cs-title">Onderhoud voor de utiliteitsbouw</h2>
+            </div>
+            <p class="cs-text">
+                Elementjob biedt een uitgebreid scala aan onderhoudsdiensten voor de utiliteitsbouw. Van klimaattechniek en legionellabeheer tot diverse schoonmaakwerkzaamheden: wij zorgen voor duurzame prestaties en een schone werkomgeving. Ontdek hieronder ons volledige dienstenaanbod."
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item" style="position: relative; overflow: hidden;">
+                <a href="/diensten/airconditioning/" class="cs-link" style="position: relative; z-index: 2; display: block; height: 100%; text-decoration: none; color: white;">
+                    <div style="position: relative; z-index: 2; padding: 1.5rem;">
+                        <h3 class="cs-h3" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Airconditioning</h3>
+                        <p class="cs-item-text" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Onderhoud voor optimale koeling en energiebesparing.</p>
+                    </div>
+                </a>
+                <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;">
+                    <img
+                        src={airconditioning.src}
+                        alt="Airconditioning"
+                        class="cs-item-background"
+                        loading="lazy"
+                        decoding="async"
+                        width="413"
+                        height="374"
+                        style="width: 100%; height: 100%; object-fit: cover;"
+                    />
+                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+                </div>
+            </li>
+            <li class="cs-item" style="position: relative; overflow: hidden;">
+                <a href="/diensten/airfinbanken/" class="cs-link" style="position: relative; z-index: 2; display: block; height: 100%; text-decoration: none; color: white;">
+                    <div style="position: relative; z-index: 2; padding: 1.5rem;">
+                        <h3 class="cs-h3" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Airfinbanken</h3>
+                        <p class="cs-item-text" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Onderhoud aan airfinbanken voor efficiënte warmteoverdracht.</p>
+                    </div>
+                </a>
+                <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;">
+                    <img
+                        src={airfinbanken.src}
+                        alt="Airfinbanken"
+                        class="cs-item-background"
+                        loading="lazy"
+                        decoding="async"
+                        width="413"
+                        height="374"
+                        style="width: 100%; height: 100%; object-fit: cover;"
+                    />
+                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+                </div>
+            </li>
+            <li class="cs-item" style="position: relative; overflow: hidden;">
+                <a href="/diensten/condensors-drycoolers/" class="cs-link" style="position: relative; z-index: 2; display: block; height: 100%; text-decoration: none; color: white;">
+                    <div style="position: relative; z-index: 2; padding: 1.5rem;">
+                        <h3 class="cs-h3" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Condensors (Drycoolers)</h3>
+                        <p class="cs-item-text" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Betrouwbaar onderhoud voor condensors en drycoolers om maximale efficiëntie te garanderen.</p>
+                    </div>
+                </a>
+                <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;">
+                    <img
+                        src={condensors.src}
+                        alt="Condensors (Drycoolers)"
+                        class="cs-item-background"
+                        loading="lazy"
+                        decoding="async"
+                        width="413"
+                        height="374"
+                        style="width: 100%; height: 100%; object-fit: cover;"
+                    />
+                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+                </div>
+            </li>
+            <li class="cs-item" style="position: relative; overflow: hidden;">
+                <a href="/diensten/diepte-reiniging-keuken/" class="cs-link" style="position: relative; z-index: 2; display: block; height: 100%; text-decoration: none; color: white;">
+                    <div style="position: relative; z-index: 2; padding: 1.5rem;">
+                        <h3 class="cs-h3" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Diepte reiniging keuken & Sanitair</h3>
+                        <p class="cs-item-text" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Grondige reiniging van keukens en sanitaire voorzieningen voor optimale hygiëne.</p>
+                    </div>
+                </a>
+                <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;">
+                    <img
+                        src={diepteReiniging.src}
+                        alt="Diepte reiniging keuken & Sanitair"
+                        class="cs-item-background"
+                        loading="lazy"
+                        decoding="async"
+                        width="413"
+                        height="374"
+                        style="width: 100%; height: 100%; object-fit: cover;"
+                    />
+                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+                </div>
+            </li>
+            <li class="cs-item" style="position: relative; overflow: hidden;">
+                <a href="/diensten/fancoil-units-inductie-units/" class="cs-link" style="position: relative; z-index: 2; display: block; height: 100%; text-decoration: none; color: white;">
+                    <div style="position: relative; z-index: 2; padding: 1.5rem;">
+                        <h3 class="cs-h3" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Fancoil Units / Inductie Units</h3>
+                        <p class="cs-item-text" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Onderhoud van fancoil en inductie units voor duurzame klimaatbeheersing.</p>
+                    </div>
+                </a>
+                <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;">
+                    <img
+                        src={fancoilUnits.src}
+                        alt="Fancoil Units / Inductie Units"
+                        class="cs-item-background"
+                        loading="lazy"
+                        decoding="async"
+                        width="413"
+                        height="374"
+                        style="width: 100%; height: 100%; object-fit: cover;"
+                    />
+                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+                </div>
+            </li>
+            <li class="cs-item" style="position: relative; overflow: hidden;">
+                <a href="/diensten/luchtverdeelslangen/" class="cs-link" style="position: relative; z-index: 2; display: block; height: 100%; text-decoration: none; color: white;">
+                    <div style="position: relative; z-index: 2; padding: 1.5rem;">
+                        <h3 class="cs-h3" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Luchtverdeelslangen</h3>
+                        <p class="cs-item-text" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Reiniging en vervanging van luchtverdeelslangen.</p>
+                    </div>
+                </a>
+                <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;">
+                    <img
+                        src={luchtverdeelslangen.src}
+                        alt="Luchtverdeelslangen"
+                        class="cs-item-background"
+                        loading="lazy"
+                        decoding="async"
+                        width="413"
+                        height="374"
+                        style="width: 100%; height: 100%; object-fit: cover;"
+                    />
+                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+                </div>
+            </li>
+            <li class="cs-item" style="position: relative; overflow: hidden;">
+                <a href="/diensten/zonnepanelen/" class="cs-link" style="position: relative; z-index: 2; display: block; height: 100%; text-decoration: none; color: white;">
+                    <div style="position: relative; z-index: 2; padding: 1.5rem;">
+                        <h3 class="cs-h3" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Zonnepanelen</h3>
+                        <p class="cs-item-text" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Deskundige reiniging van zonnepanelen voor optimale opbrengsten.</p>
+                    </div>
+                </a>
+                <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;">
+                    <img
+                        src={zonnepanelen.src}
+                        alt="Zonnepanelen"
+                        class="cs-item-background"
+                        loading="lazy"
+                        decoding="async"
+                        width="413"
+                        height="374"
+                        style="width: 100%; height: 100%; object-fit: cover;"
+                    />
+                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+                </div>
+            </li>
+            <li class="cs-item" style="position: relative; overflow: hidden;">
+                <a href="/diensten/ruimte-desinfectie/" class="cs-link" style="position: relative; z-index: 2; display: block; height: 100%; text-decoration: none; color: white;">
+                    <div style="position: relative; z-index: 2; padding: 1.5rem;">
+                        <h3 class="cs-h3" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Ruimte Desinfectie</h3>
+                        <p class="cs-item-text" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Professionele desinfectie voor een gezonde werkomgeving.</p>
+                    </div>
+                </a>
+                <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;">
+                    <img
+                        src={ruimteDesinfectie.src}
+                        alt="Ruimte Desinfectie"
+                        class="cs-item-background"
+                        loading="lazy"
+                        decoding="async"
+                        width="413"
+                        height="374"
+                        style="width: 100%; height: 100%; object-fit: cover;"
+                    />
+                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+                </div>
+            </li>
+            <li class="cs-item" style="position: relative; overflow: hidden;">
+                <a href="/diensten/koelcellen/" class="cs-link" style="position: relative; z-index: 2; display: block; height: 100%; text-decoration: none; color: white;">
+                    <div style="position: relative; z-index: 2; padding: 1.5rem;">
+                        <h3 class="cs-h3" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Koelcellen</h3>
+                        <p class="cs-item-text" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Onderhoud en reinigingvan koelcellen voor optimale koelprestaties.</p>
+                    </div>
+                </a>
+                <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;">
+                    <img
+                        src={koelcellen.src}
+                        alt="Koelcellen"
+                        class="cs-item-background"
+                        loading="lazy"
+                        decoding="async"
+                        width="413"
+                        height="374"
+                        style="width: 100%; height: 100%; object-fit: cover;"
+                    />
+                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+                </div>
+            </li>
+            <li class="cs-item" style="position: relative; overflow: hidden;">
+                <a href="/diensten/koelmeubelen/" class="cs-link" style="position: relative; z-index: 2; display: block; height: 100%; text-decoration: none; color: white;">
+                    <div style="position: relative; z-index: 2; padding: 1.5rem;">
+                        <h3 class="cs-h3" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Koelmeubelen</h3>
+                        <p class="cs-item-text" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Onderhoud en reiniging van koelmeubelen voor consistente koeling en energiebesparing.</p>
+                    </div>
+                </a>
+                <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;">
+                    <img
+                        src={koelmeubelen.src}
+                        alt="Koelmeubelen"
+                        class="cs-item-background"
+                        loading="lazy"
+                        decoding="async"
+                        width="413"
+                        height="374"
+                        style="width: 100%; height: 100%; object-fit: cover;"
+                    />
+                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+                </div>
+            </li>
+            <li class="cs-item" style="position: relative; overflow: hidden;">
+                <a href="/diensten/luchtbehandelingskasten/" class="cs-link" style="position: relative; z-index: 2; display: block; height: 100%; text-decoration: none; color: white;">
+                    <div style="position: relative; z-index: 2; padding: 1.5rem;">
+                        <h3 class="cs-h3" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Luchtbehandelingskasten</h3>
+                        <p class="cs-item-text" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Onderhoud van luchtbehandelingskasten voor een optimaal binnenklimaat en efficiënte werking.</p>
+                    </div>
+                </a>
+                <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;">
+                    <img
+                        src={luchtbehandelingskasten.src}
+                        alt="Luchtbehandelingskasten"
+                        class="cs-item-background"
+                        loading="lazy"
+                        decoding="async"
+                        width="413"
+                        height="374"
+                        style="width: 100%; height: 100%; object-fit: cover;"
+                    />
+                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+                </div>
+            </li>
+            <li class="cs-item" style="position: relative; overflow: hidden;">
+                <a href="/diensten/machinekamer/" class="cs-link" style="position: relative; z-index: 2; display: block; height: 100%; text-decoration: none; color: white;">
+                    <div style="position: relative; z-index: 2; padding: 1.5rem;">
+                        <h3 class="cs-h3" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Machinekamer</h3>
+                        <p class="cs-item-text" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Schoonmaak en beheer van machinekamers voor ononderbroken werking van uw installaties.</p>
+                    </div>
+                </a>
+                <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;">
+                    <img
+                        src={machinekamer.src}
+                        alt="Machinekamer"
+                        class="cs-item-background"
+                        loading="lazy"
+                        decoding="async"
+                        width="413"
+                        height="374"
+                        style="width: 100%; height: 100%; object-fit: cover;"
+                    />
+                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+                </div>
+            </li>
+            <li class="cs-item" style="position: relative; overflow: hidden;">
+                <a href="/diensten/ventilatoren/" class="cs-link" style="position: relative; z-index: 2; display: block; height: 100%; text-decoration: none; color: white;">
+                    <div style="position: relative; z-index: 2; padding: 1.5rem;">
+                        <h3 class="cs-h3" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Ventilatoren</h3>
+                        <p class="cs-item-text" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Onderhoud en reparatie van ventilatiesystemen voor efficiënte luchtcirculatie.</p>
+                    </div>
+                </a>
+                <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;">
+                    <img
+                        src={ventilatoren.src}
+                        alt="Ventilatoren"
+                        class="cs-item-background"
+                        loading="lazy"
+                        decoding="async"
+                        width="413"
+                        height="374"
+                        style="width: 100%; height: 100%; object-fit: cover;"
+                    />
+                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+                </div>
+            </li>
+            <li class="cs-item" style="position: relative; overflow: hidden;">
+                <a href="/diensten/verdamper-luchtkoelers/" class="cs-link" style="position: relative; z-index: 2; display: block; height: 100%; text-decoration: none; color: white;">
+                    <div style="position: relative; z-index: 2; padding: 1.5rem;">
+                        <h3 class="cs-h3" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Verdamper/luchtkoelers</h3>
+                        <p class="cs-item-text" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Specialistisch onderhoud van verdampers en luchtkoelers voor optimale koeling.</p>
+                    </div>
+                </a>
+                <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;">
+                    <img
+                        src={verdamperLuchtkoelers.src}
+                        alt="Verdamper/luchtkoelers"
+                        class="cs-item-background"
+                        loading="lazy"
+                        decoding="async"
+                        width="413"
+                        height="374"
+                        style="width: 100%; height: 100%; object-fit: cover;"
+                    />
+                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+                </div>
+            </li>
+            <li class="cs-item" style="position: relative; overflow: hidden;">
+                <a href="/diensten/warmtewisselaar/" class="cs-link" style="position: relative; z-index: 2; display: block; height: 100%; text-decoration: none; color: white;">
+                    <div style="position: relative; z-index: 2; padding: 1.5rem;">
+                        <h3 class="cs-h3" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Warmtewisselaar</h3>
+                        <p class="cs-item-text" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Onderhoud van warmtewisselaars voor efficiënte overdracht.</p>
+                    </div>
+                </a>
+                <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;">
+                    <img
+                        src={warmtewisselaar.src}
+                        alt="Warmtewisselaar"
+                        class="cs-item-background"
+                        loading="lazy"
+                        decoding="async"
+                        width="413"
+                        height="374"
+                        style="width: 100%; height: 100%; object-fit: cover;"
+                    />
+                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+                </div>
+            </li>
+            <li class="cs-item" style="position: relative; overflow: hidden;">
+                <a href="/diensten/legionellabeheer/" class="cs-link" style="position: relative; z-index: 2; display: block; height: 100%; text-decoration: none; color: white;">
+                    <div style="position: relative; z-index: 2; padding: 1.5rem;">
+                        <h3 class="cs-h3" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Legionellabeheer</h3>
+                        <p class="cs-item-text" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">Effectieve maatregelen en beheer voor legionellapreventie en veilig watergebruik.</p>
+                    </div>
+                </a>
+                <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;">
+                    <img
+                        src={legionellabeheer.src}
+                        alt="Legionellabeheer"
+                        class="cs-item-background"
+                        loading="lazy"
+                        decoding="async"
+                        width="413"
+                        height="374"
+                        style="width: 100%; height: 100%; object-fit: cover;"
+                    />
+                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+ 
+
+<!-- ============================================ -->
+<!--                  Side By Side                -->
+<!-- ============================================ -->
+<section id="sbs-1585">
+  <div class="cs-container">
+      <picture class="cs-picture">
+          <!--Mobile Image-->
+          <source media="(max-width: 600px)" srcset={home2.src}>
+          <!--Tablet and above Image-->
+          <source media="(min-width: 601px)" srcset={home2.src}>
+          <img loading="lazy" decoding="async" src={home2.src} alt="Professionele schoonmaak- en onderhoudsdiensten" width="586" height="690">
+      </picture>
+      <div class="cs-content">
+          <span class="cs-topper">Onze Specialisaties</span>
+          <h2 class="cs-title">Professionele Schoonmaak- en Onderhoudsoplossingen voor de Utiliteitsbouw</h2>
+          <ul class="cs-card-group">
+              <li class="cs-item">
+                  <div class="wrapper">
+                      <span class="cs-item-number">01</span>
+                      <h3 class="cs-h3">
+                          Industriële Reiniging
+                      </h3>
+                  </div>
+                  <p class="cs-item-text">
+                      Grondige reiniging van kantoren, distributiecentra's en productiefaciliteiten voor een aangenaam, schone en veilige werkomgeving.
+                  </p>
+              </li>
+              <li class="cs-item">
+                  <div class="wrapper">
+                      <span class="cs-item-number">02</span>
+                      <h3 class="cs-h3">
+                          Onderhoud Luchtbehandelingssystemen
+                      </h3>
+                  </div>
+                  <p class="cs-item-text">
+                      Deskundig onderhoud van luchtbehandelingsinstallaties voor verbeterde luchtkwaliteit en energie-efficiëntie in uw gebouw.
+                  </p>
+              </li>
+              <li class="cs-item">
+                  <div class="wrapper">
+                      <span class="cs-item-number">03</span>
+                      <h3 class="cs-h3">
+                          Legionellapreventie
+                      </h3>
+                  </div>
+                  <p class="cs-item-text">
+                      Uitgebreide maatregelen voor legionellapreventie om de veiligheid van uw waterinstallaties te garanderen en gezondheidsrisico's onder uw personeel te minimaliseren.
+                  </p>
+              </li>
+              <li class="cs-item">
+                  <div class="wrapper">
+                      <span class="cs-item-number">04</span>
+                      <h3 class="cs-h3">
+                          Zonnepaneelonderhoud
+                      </h3>
+                  </div>
+                  <p class="cs-item-text">
+                      Professionele reiniging en onderhoud van zonnepanelen voor optimale energieopbrengst van uw installatie.
+                  </p>
+              </li>
+          </ul>
+          <a href="/about" class="cs-button-solid">Over Ons</a>
+      </div>
+  </div>
+</section>
+                              
+
+
+  <CTA />
+</BaseLayout>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      const scrollButton = document.querySelector('.scroll-to-services');
+      if (scrollButton) {
+        scrollButton.addEventListener('click', function(e) {
+          e.preventDefault();
+          const servicesSection = document.querySelector('#services-1254');
+          if (servicesSection) {
+            servicesSection.scrollIntoView({ 
+              behavior: 'smooth'
+            });
+          }
+        });
+      }
+    });
+  </script>
+
+<style lang="less">
+ /*-- -------------------------- -->
+<---           Hero             -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #hero-1949 {
+        padding: var(--sectionPadding);
+	    /* 160px - 220px - leaving extra space for the navigation */
+        padding-top: clamp(10rem, 26.95vw, 13.75rem);
+        padding-bottom: (100/16rem);
+        position: relative;
+        z-index: 1;
+
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            /* 60px - 180px */
+            gap: clamp(3.75rem, 13vw, 11.25rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            max-width: (630/16rem);
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+        }
+
+        .cs-title, .cs-text {
+            margin-bottom: (20/16rem);
+        }
+
+        .cs-title {
+            /* 39px - 61px */
+            font-size: clamp(2.4375rem, 5vw, 3.8125rem);
+        }
+
+        .cs-text {
+            /* 16px - 20px */
+            font-size: clamp(1rem, 2vw, 1.25rem);
+        }
+
+        .cs-button-solid {
+            font-size: (16/16rem);
+	    	font-weight: 700;
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+            margin: 0;
+            /* 32px - 48px */
+            padding: 0 clamp(2rem, 4vw, 3rem);
+            background-color: var(--primary);
+            color: #fff;
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+
+            &:before {
+                content: '';
+                width: 0%;
+                height: 100%;
+                background: #000;
+                opacity: 1;
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                transition: width .3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-card-group {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            /* 16px - 20px */
+            gap: clamp(1rem, 2.3vw, 1.25rem);
+        }
+
+        .cs-item {
+            text-align: left;
+            list-style: none;
+            width: 100%;
+            margin: 0;
+            margin-bottom: auto;
+            /* prevents padding from affecting height and width */
+            box-sizing: border-box;
+            padding: (32/16rem) 0;
+            background-color: transparent;
+            border-top: var(--headerColor) 1px solid;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            grid-column: span 12;
+            grid-row: span 1;
+            position: relative;
+            z-index: 1;
+            align-self: stretch;
+        }
+
+        .cs-h3 {
+            /* 20px - 25px */
+            font-size: clamp(1.25rem, 2.5vw, 1.5625rem);
+            font-weight: bold;
+            line-height: 1.2em;
+            text-align: inherit;
+            margin: 0 0 (12/16rem) 0;
+            color: var(--headerColor);
+        }
+
+        .cs-item-text {
+            font-size: (16/16rem);
+            line-height: 1.5em;
+            max-width: (450/16rem);
+            margin: 0;
+            padding: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-background {
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -2;
+
+            &:before {
+                /* Overlay */
+                content: '';
+                width: 100%;
+                height: 100%;
+                background: #F7F7F7;
+                /* prevents the cursor from interacting with it */
+                pointer-events: none;
+                opacity: 0.90;
+                display: block;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                z-index: 1;
+            }
+            
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                /* makes the top of the image start at the top of the parent */
+                object-position: top;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #hero-1949 {
+        .cs-container {
+            align-items: flex-start;
+        }
+
+        .cs-content {
+            text-align: left;
+            margin-left: 0;
+            width: 50%;
+            align-items: flex-start;
+        }
+
+        .cs-item {
+            grid-column: span 3;
+        }
+
+        .cs-background {
+            height: 100%;
+
+            &:before {
+                height: 100%;
+                background: linear-gradient(0deg, rgba(247, 247, 247, 0.95) 26%, rgba(247, 247, 247, 0.00) 70.26%);
+                opacity: 1;
+            }
+        }
+    }
+}
+
+/* Large Desktop Parallax Effect - 100px */
+@media only screen and (min-width: 100rem) {
+    #hero-1949 {
+        .cs-background {
+            background: url("https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Landscapes/architect.jpeg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* creates the parallax effect */
+            background-attachment: fixed;
+            img {
+                display: none;
+            }
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #hero-1949 {
+            background-color: rgba(0, 0, 0, 0.2);
+
+            .cs-item {
+                border-color: #fff;
+            }
+
+            .cs-h3, .cs-item-text {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-text, .cs-item-text {
+                opacity: 0.8;
+            }
+
+            .cs-background {
+                background-color: #000;
+                opacity: .17;
+
+                &:before {
+                    background: linear-gradient(0deg, rgba(0, 0, 0, 0.95) 26%, rgba(0, 0, 0, 0.00) 70.26%);
+                }
+            }
+        }
+    }
+
+
+    
+}
+
+
+/*-- -------------------------- -->
+<---      Why Choose Us         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #why-choose-1657 {
+        padding: var(--sectionPadding);
+        background-color: #F3F3F4;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        
+        .cs-container {
+            width: 100%;
+            /* changes to 1280px at tablet */
+            max-width: (584/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 100px */
+            gap: clamp(3rem, 10vw, 6.25rem);
+        }
+    
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+        }
+
+        .cs-flex {
+            max-width: (616/16rem);
+        }
+    
+        .cs-title {
+            max-width: 20ch;
+            margin-bottom: (24/16rem);
+        }
+
+        .cs-ul {
+            width: 100%;
+            max-width: (522/16rem);
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            /* 28px - 32px */
+            gap: clamp(1.75rem, 3vw, 2rem);
+        }
+
+        .cs-li {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: (16/16rem);
+        }
+
+        .cs-number {
+            font-size: (20/16rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            margin: 0;
+            color: var(--primary);
+            display: block;
+        }
+
+        .cs-li-text {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.5vw, 1rem);
+            line-height: 1.5em;
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* 40px - 64px */
+            gap: clamp(2.5rem, 6vw, 4rem);
+            position: relative;
+            z-index: 1;
+
+            &:before {
+                /* white background */
+                content: '';
+                width: 100vw;
+                height: 500%;
+                background: #fff;
+                opacity: 1;
+                position: absolute;
+                display: block;
+                /* 40px - 140px */
+                top: clamp(2.5rem, 10vw, 8.75rem);
+                left: 50%;
+                z-index: -1;
+                transform: translateX(-50%);
+            }
+        }
+
+        .cs-picture {
+            width: 100%;
+            height: 70vw;
+            max-height: (400/16rem);
+            display: block;
+            position: relative;
+            z-index: 1;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+
+        .cs-quote {
+            /* 62px - 100px */
+            width: clamp(3.875rem, 7vw, 6.25rem);
+            height: auto;
+            margin-bottom: (-28/16rem);
+            opacity: .4;
+            position: relative;
+            z-index: -1;
+        }
+
+        .cs-review {
+            --quoteColor: var(--primary);
+            
+            /* 20px - 25px */
+            font-size: clamp(1.25rem, 3vw, 1.5625rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            width: 100%;
+            max-width: (522/16rem);
+            margin: 0;
+            color: var(--headerColor);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #why-choose-1657 {
+        .cs-container {
+            max-width: (1280/16rem);
+            gap: 0;
+        }
+
+        .cs-content {
+            padding-bottom: (100/16rem);
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .cs-flex {
+            text-align: left;
+            width: 40vw;
+            max-width: (630/16rem);
+            flex: none;
+        }
+
+        .cs-title {
+            margin: 0;
+        }
+        
+        .cs-wrapper {
+            /* -60px to -140px */
+            margin-top: ~"calc(clamp(3.75rem, 10vw, 8.75rem)*-1)";
+            flex-direction: row;
+            align-items: stretch;
+            justify-content: space-between;
+        }
+
+        .cs-picture {
+            width: 43vw;
+            max-width: (630/16rem);
+            height: auto;
+            /* 252px - 414px */
+            min-height: clamp(15.75rem, 30vw, 25.875rem);
+            max-height: 100%;
+            /* prevents flexbox from squishing it */
+            flex: none;
+        }
+
+        .cs-review {
+            /* 100px - 235px */
+            /* pushes up against the container so there's always that gap between the top of the review and the container */
+            margin-top: clamp(6.25rem, 20vw, 14.5rem);
+            align-self: flex-end;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #why-choose-1657 {
+            background-color: rgba(0, 0, 0, .3);
+
+            .cs-title, .cs-li-text, .cs-review {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-li-text {
+                opacity: .8;
+            }
+
+            .cs-wrapper {
+                &:before {
+                    background-color: var(--dark);
+                }
+            }
+        }
+    }
+}
+                                
+                                
+
+  /*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+  /* Mobile */
+  @media only screen and (min-width: 0em) {
+    .services {
+      width: 90%;
+      max-width: (1320/16em);
+      margin: auto;
+      margin-top: (-167/16em);
+      margin-bottom: (50/16em);
+      padding: (50/16em) (20/16em);
+      background: #fff;
+      box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+      border-top: (6/16em) solid var(--primary);
+      border-radius: (5/16em);
+      position: relative;
+      z-index: 100;
+      .card {
+        width: 100%;
+        max-width: (357/16em);
+        margin: auto;
+        margin-bottom: (50/16em);
+        display: block;
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+
+        picture {
+          width: (88/16em);
+          height: (88/16em);
+          margin: auto;
+          margin-bottom: (23/16em);
+          background: var(--primary);
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            width: (48/16em);
+            height: (48/16em);
+          }
+        }
+        h2 {
+          font-size: (32/16em);
+          font-weight: 700;
+          line-height: 27/20em;
+          text-align: center;
+          margin-bottom: 13/20em;
+          color: #1a1a1a;
+        }
+        p {
+          line-height: 24/18em;
+          text-align: center;
+          width: 100%;
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+
+  /* Inbetween */
+  @media only screen and (min-width: 768px) {
+    .services {
+      font-size: ~"min(1.8vw, 1em)";
+      width: 98%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      .card {
+        max-width: (325/16em);
+        margin: 0;
+      }
+    }
+  }
+
+  /* Large Desktop */
+  @media only screen and (min-width: 1300px) {
+    .services {
+      padding: (50/16em) (80/16em);
+
+      .card {
+        max-width: (357/16em);
+      }
+    }
+  }
+
+  /* Dark mode */
+  @media only screen and (min-width: 0em) {
+    body.dark-mode {
+      #services {
+        background: var(--medium);
+
+        picture {
+          background: var(--primaryDark);
+        }
+
+        h2 {
+          font-weight: bold;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  /* PAGE-SPECIFIC STYLES FOR THE HOME PAGE */
+
+
+  /*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #services-1254 {
+        padding: var(--sectionPadding);
+        position: relative;
+        z-index: 10;
+
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+        }
+
+        .cs-title {
+            max-width: 20ch;
+        }
+
+        .cs-card-group {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            /* 16px - 20px */
+            gap: clamp(1rem, 2vw, 1.25rem);
+        }
+
+        .cs-item {
+            width: 100%;
+            text-align: left;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            border-radius: (8/16rem);
+            /* clips background image corners */
+            overflow: hidden;
+            box-shadow: 0px 12px 80px 0px rgba(26, 26, 26, 0.08);
+            /* prevents padding and border from affecting height and width */
+            box-sizing: border-box;
+            grid-column: span 12;
+            grid-row: span 1;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-end;
+            position: relative;
+            z-index: 1;
+
+            &:hover {
+                .cs-item-background {
+                    img {
+                        opacity: 0.4;
+                        transform: scale(1.3);
+                    }
+                }
+
+                .cs-h3 {
+                    color: var(--primary);
+                }
+            }
+
+            &:before {
+                content: "";
+                width: 100%;
+                height: 100%;
+                border: 1px solid rgba(255, 255, 255, 0.4);
+                /* prevents border from affecting height and width */
+                box-sizing: border-box;
+                border-radius: (8/16rem);
+                /* prevents the mouse from interacting with it so when you hover hover the other elements inside the card it doesn't block your mouse from hovering over them */
+                pointer-events: none;
+                opacity: 1;
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+                z-index: 10;
+            }
+        }
+
+        .cs-link {
+            text-decoration: none;
+            /* 125px - 236px */
+            /* padding goes on the link, not the cs-item as is normal. We do this because we want the whole card to be hoverable. So we add the padding to the link tag to create the space inside the card. By adding the space inside the cs-link tag we can make the whole card hoverable since the padding is now contributing to the height and widht of the link */
+            padding: clamp(7.8125rem, 19vw, 14.75rem) (24/16rem) (24/16rem);
+        }
+
+        .cs-h3 {
+            /* 20px - 25px */
+            font-size: clamp(1.25rem, 2.5vw, 1.5625rem);
+            line-height: 1.2em;
+            font-weight: bold;
+            text-align: inherit;
+            margin: 0 0 (12/16rem) 0;
+            color: var(--bodyTextColorWhite);
+            transition: color 0.3s;
+        }
+
+        .cs-item-text {
+            /* 14px - 16px */
+            font-size: clamp(0.875rem, 1.5vw, 1rem);
+            line-height: 1.5em;
+            max-width: (450/16rem);
+            margin: 0;
+            padding: 0;
+            color: var(--bodyTextColorWhite);
+        }
+
+        .cs-item-background {
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+
+            &:before {
+                /* background color overlay */
+                content: "";
+                position: absolute;
+                display: block;
+                height: 100%;
+                width: 100%;
+                background: #1a1a1a;
+                opacity: 0.24;
+                top: 0;
+                left: 0;
+                z-index: 1;
+            }
+
+            &:after {
+                /* background color overlay */
+                content: "";
+                position: absolute;
+                display: block;
+                height: 100%;
+                width: 100%;
+                background: -moz-linear-gradient(
+                    top,
+                    rgba(0, 0, 0, 0) 0%,
+                    rgba(0, 0, 0, 1) 100%
+                ); /* FF3.6-15 */
+                background: -webkit-linear-gradient(
+                    top,
+                    rgba(0, 0, 0, 0) 0%,
+                    rgba(0, 0, 0, 1) 100%
+                ); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 0) 0%,
+                    rgba(0, 0, 0, 1) 100%
+                );
+                opacity: 0.4;
+                bottom: 0;
+                left: 0;
+                z-index: 2;
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* Makes img tag act as a background image */
+                object-fit: cover;
+                transition:
+                    transform 0.6s,
+                    opacity 0.3s;
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #services-1254 {
+        padding-bottom: 0;
+
+        .cs-content {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            gap: (48/16rem);
+        }
+
+        .cs-title {
+            margin: 0;
+        }
+
+        .cs-flex-group {
+            width: 50%;
+        }
+
+        .cs-item {
+            grid-column: span 6;
+        }
+    }
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #services-1254 {
+        .cs-item {
+            grid-column: span 3;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #services-1254 {
+            .cs-title,
+            .cs-text {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-text {
+                opacity: 0.8;
+            }
+        }
+    }
+}
+
+                                
+
+  /*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+  /* Mobile - 360px */
+  @media only screen and (min-width: 0em) {
+    #sbs {
+      padding: var(--sectionPadding);
+
+      .cs-container {
+        width: 100%;
+        max-width: (1280/16rem);
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: (40/16rem);
+      }
+
+      .cs-left {
+        /* scaling the font size with the view width */
+        font-size: ~"min(2.31vw, .7em)";
+        /* using ems so we can use font size to scale the whole section */
+        width: (631/16em);
+        height: (636/16em);
+        position: relative;
+      }
+
+      .cs-picture {
+        border-radius: (24/16em);
+        display: block;
+        position: absolute;
+        /* clips img tag corners */
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 100%;
+          /* makes image act like a background image */
+          object-fit: cover;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+      }
+
+      .cs-picture1 {
+        width: (522/16em);
+        height: (581/16em);
+        top: 0;
+        left: 0;
+      }
+
+      .cs-picture2 {
+        width: (414/16em);
+        height: (400/16em);
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
+        /* 6px - 12px */
+        border: clamp(0.375em, 1.5vw, 0.75em) solid #fff;
+        right: 0;
+        bottom: 0;
+      }
+
+      .cs-right {
+        max-width: (542/16rem);
+        margin: auto;
+      }
+
+      .cs-topper {
+        text-align: left;
+        margin-bottom: (4/16rem);
+      }
+
+      .cs-title {
+        text-align: left;
+        max-width: (800/16rem);
+      }
+
+      .cs-text {
+        text-align: left;
+        max-width: (750/16rem);
+        margin-bottom: (16/16rem);
+
+        &:last-of-type {
+          margin-bottom: (32/16rem);
+        }
+      }
+
+      .cs-flex-group {
+        /* 16px - 32px */
+        padding: clamp(1rem, 3vw, 2rem);
+        background-color: #f7f7f7;
+        border-radius: (16/16rem);
+        position: relative;
+      }
+
+      .cs-flex-p {
+        /* 14px - 16px */
+        font-size: clamp(0.875rem, 1.5vw, 1rem);
+        line-height: 1.5em;
+        margin: 0 0 (16/16rem);
+        color: #353535;
+      }
+
+      .cs-name {
+        font-size: (16/16rem);
+        font-weight: bold;
+        line-height: 1.2em;
+        text-transform: uppercase;
+        margin: 0 0 (4/16rem);
+        color: var(--headerColor);
+        display: block;
+      }
+
+      .cs-job {
+        font-size: (14/16rem);
+        line-height: 1.5em;
+        color: #353535;
+        display: block;
+      }
+
+      .cs-quote-icon {
+        /* 60px - 136px */
+        width: clamp(3.75rem, 10vw, 8.5rem);
+        height: auto;
+        position: absolute;
+        /* 16px - 32px */
+        right: clamp(1rem, 4vw, 2rem);
+        bottom: (0/16rem);
+      }
+
+      .cs-button-solid {
+        margin-top: (32/16rem);
+      }
+    }
+  }
+
+  /* Desktop - 1024px */
+  @media only screen and (min-width: 64em) {
+    #sbs {
+      .cs-container {
+        flex-flow: row;
+        justify-content: space-between;
+        gap: (52/16rem);
+      }
+
+      .cs-left {
+        font-size: ~"min(1.2vw, 1em)";
+        flex: none;
+      }
+
+      .cs-right {
+        margin: 0;
+      }
+    }
+  }
+
+  /* Dark Mode */
+  @media only screen and (min-width: 0em) {
+    body.dark-mode {
+      #sbs {
+        .cs-left {
+          &:before,
+          &:after {
+            background: var(--accent);
+          }
+        }
+
+        .cs-picture2 {
+          background-color: var(--dark);
+          /* 6px - 12px */
+          border: clamp(0.375em, 1.5vw, 0.75em) solid var(--dark);
+        }
+
+        .cs-topper {
+          color: var(--primaryLight);
+        }
+
+        .cs-title,
+        .cs-text,
+        .cs-h3,
+        .cs-flex-p,
+        .cs-name {
+          color: var(--bodyTextColorWhite);
+        }
+
+        .cs-flex-group {
+          background-color: var(--accent);
+        }
+
+        .cs-job {
+          color: var(--bodyTextColorWhite);
+          opacity: 0.8;
+        }
+
+        .cs-quote-icon {
+          opacity: 0.2;
+        }
+      }
+    }
+  }
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #sbsr-1457 {
+        padding: var(--sectionPadding);
+        position: relative;
+        z-index: 1;
+
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            max-width: (522/16rem);
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+        }
+
+        .cs-text {
+            margin-bottom: (16/16rem);
+            &:last-of-type {
+                margin-bottom: (32/16rem);
+            }
+        }
+
+        .cs-ul {
+            width: 100%;
+            margin: 0 0 (32/16rem) 0;
+            padding-left: (20/16rem);
+            /* prevents padding from affecting width and height */
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: (8/16rem);
+        }
+
+        .cs-li {
+            font-size: var(--bodyFontSize);
+            line-height: 1.5em;
+            list-style: none;
+            text-align: left;
+            width: 100%;
+            max-width: (400/16rem);
+            margin: 0;
+            color: var(--bodyTextColor);
+            position: relative;
+
+            &:before {
+                /* bullet */
+                content: "";
+                width: 4px;
+                height: 4px;
+                border-radius: 50%;
+                background: currentColor;
+                opacity: 1;
+                position: absolute;
+                display: block;
+                top: (10/16rem);
+                left: (-15/16rem);
+            }
+        }
+
+        .cs-button-solid {
+            font-size: (16/16rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+            font-weight: 700;
+            text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: (150/16rem);
+            padding: 0 (24/16rem);
+            background-color: var(--primary);
+            border-radius: (4/16rem);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+
+            &:before {
+                content: "";
+                position: absolute;
+                height: 100%;
+                width: 0%;
+                background: #000;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                border-radius: (4/16rem);
+                transition: width 0.3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-image-group {
+            /* scaling the font size with the view width, removed at desktop */
+            font-size: ~"min(2.23vw, .83em)";
+            /* using ems so we can use font size to scale the whole section */
+            width: (650/16em);
+            height: (729/16em);
+            position: relative;
+        }
+
+        .cs-picture {
+            border-radius: (24/16em);
+            /* clips img tag corners */
+            overflow: hidden;
+            position: absolute;
+            display: block;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* makes image act like a background image */
+                object-fit: cover;
+            }
+        }
+
+        .cs-picture1 {
+            width: (522/16em);
+            height: (729/16em);
+            right: 0;
+            top: 0;
+        }
+
+        .cs-picture2 {
+            width: (378/16em);
+            height: (460/16em);
+            left: 0;
+            bottom: (100/16em);
+        }
+
+        .cs-background {
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+
+            &:before {
+                /* background color overlay */
+                content: '';
+                position: absolute;
+                display: block;
+                height: 100%;
+                width: 100%;
+                background: #fff;
+                /* prevents the mouse from interacting with it */
+                pointer-events: none;
+                opacity: .94;
+                top: 0;
+                left: 0;
+                z-index: -1;
+            }
+
+            img {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -2;
+                /* Makes img tag act as a background image */
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #sbsr-1457 {
+        .cs-container {
+            flex-flow: row;
+            justify-content: space-between;
+            align-items: stretch;
+            gap: (52/16rem);
+        }
+
+        .cs-content {
+            width: 40%;
+            padding: (48/16rem) 0;
+            /* prevents flexbox from squishing it */
+            flex: none;
+            align-self: center;
+        }
+
+        .cs-image-group {
+            font-size: 1rem;
+            width: 50vw;
+            max-width: (650/16rem);
+            height: auto;
+            /* 580px - 729px */
+            min-height: clamp(36.25rem, 50vw, 45.5625rem);
+            flex: none;
+            display: flex;
+            justify-content: flex-end;
+            /* sends it to the right in the 2nd position */
+            order: 2;
+        }
+
+        .cs-picture1 {
+            width: 83%;
+            height: auto;
+            position: relative;
+            left: auto;
+            top: auto;
+        }
+
+        .cs-picture2 {
+            width: 60%;
+            height: 57%;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #sbsr-1457 {
+            .cs-title,
+            .cs-text,
+            .cs-li {
+                color: var(--bodyTextColorWhite);
+                &:before {
+                    background-color: var(--bodyTextColorWhite);
+                }
+            }
+
+            .cs-background {
+                &:before {
+                    background-color: var(--dark);
+                }
+            }
+        }
+    }
+}
+                                
+
+ 
+
+  /*-- -------------------------- -->
+<---          Reviews           -->
+<--- -------------------------- -*/
+
+  /* Mobile - 360px */
+  @media only screen and (min-width: 0em) {
+    #reviews {
+      /* Centers the button */
+      text-align: center;
+      padding: var(--sectionPadding);
+
+      .cs-container {
+        width: 100%;
+        max-width: (1104/16rem);
+        margin: auto;
+      }
+
+      .cs-topper {
+        text-align: center;
+        margin-bottom: (16/16rem);
+      }
+
+      .cs-title {
+        text-align: center;
+        max-width: (700/16rem);
+      }
+
+      .cs-text {
+        text-align: center;
+        max-width: (650/16rem);
+        /* 88px - 104px */
+        margin-bottom: clamp(5.5em, 10.2vw, 6.5em);
+      }
+
+      .cs-card-group {
+        /* 48px - 64px */
+        margin: 0 auto clamp(3rem, 5vw, 4rem);
+        padding: 0;
+      }
+
+      .cs-item {
+        text-align: left;
+        list-style: none;
+        width: 100%;
+        max-width: (542/16rem);
+        margin: 0 auto (64/16rem);
+        /* Prevents padding from affecting height & width */
+        box-sizing: border-box;
+        /* Padding L & R - 16px - 32px */
+        padding: (60/16rem) clamp(1rem, 3.2vw, 2rem) 0;
+        /* 32px - 40px */
+        padding-bottom: clamp(2rem, 5.4vw, 2.5rem);
+        background: #fff;
+        box-shadow: 0px 20px 39px 0px rgba(0, 0, 0, 0.05);
+        border-radius: (4/16rem);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+
+      .cs-item-img {
+        width: (80/16rem);
+        height: (80/16rem);
+        position: absolute;
+        top: (-40/16rem);
+      }
+
+      .cs-item-p {
+        font-size: (16/16rem);
+        line-height: 1.5em;
+        margin: 0 0 (20/16rem);
+        padding-bottom: (20/16rem);
+        color: var(--bodyTextColor);
+        border-bottom: 1px solid #e8e9ec;
+      }
+
+      .cs-reviewer {
+        font-size: (16/16rem);
+        font-weight: 700;
+        line-height: 1.5em;
+        width: 40%;
+        margin: 0 auto 0 0;
+        color: var(--headerColor);
+        display: block;
+      }
+
+      .cs-desc {
+        font-size: (14/16rem);
+        font-weight: 400;
+        color: var(#353535);
+        display: block;
+      }
+
+      .cs-item-stars {
+        width: (96/16rem);
+        height: (16/16rem);
+      }
+    }
+  }
+
+  /* Tablet - 768px */
+  @media only screen and (min-width: 48em) {
+    #reviews {
+      .cs-card-group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: (16/16rem);
+      }
+
+      .cs-item {
+        /* reset margin so it won't interfere with flexbox */
+        margin: 0;
+      }
+    }
+  }
+
+  /* Dark Mode */
+  @media only screen and (min-width: 0em) {
+    body.dark-mode {
+      #reviews {
+        .cs-title,
+        .cs-text,
+        .cs-item-p,
+        .cs-reviewer {
+          color: var(--bodyTextColorWhite);
+        }
+
+        .cs-item {
+          background: var(--medium);
+        }
+
+        .cs-desc {
+          color: var(--primaryLight);
+        }
+      }
+    }
+  }
+
+
+  /*-- -------------------------- -->
+<---        Side By Side        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #sbs-1585 {
+        padding: var(--sectionPadding);
+        position: relative;
+        z-index: 1;
+
+        .cs-container {
+            width: 100%;
+            /* changes to 1280px at tablet */
+            max-width: (584/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(2.5rem, 6vw, 4rem);
+        }
+
+        .cs-picture {
+            width: 100%;
+            height: clamp(25rem, 80vw, 47rem);
+            display: block;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            max-width: (630/16rem);
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        .cs-title {
+            /* 26 characters wide including spaces */
+            max-width: 26ch;
+            margin: 0;
+        }
+
+        .cs-card-group {
+            width: 100%;
+            /* 550px - 630px */
+            max-width: clamp(34.375rem, 50vw, 39.375rem);
+            padding: 0;
+            /* 24px - 40px */
+            margin: clamp(1.5rem, 4vw, 2.5rem) 0 clamp(1.75rem, 4vw, 2.5rem) 0;
+            display: grid;
+            align-items: center;
+            gap: clamp(1rem, 4vw, 2.5rem);
+        }
+
+        .cs-item {
+            list-style: none;
+            /* prevents padding from affecting height and width */
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: (12/16rem);
+        }
+
+        .wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: (10/16rem);
+        }
+
+        .cs-item-number {
+            font-size: (20/16rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            margin: 0;
+            color: var(--primary);
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: (8/16rem);
+        }
+
+        .cs-h3 {
+            font-size: (20/16rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            margin: 0;
+            color: var(--headerColor);
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: (8/16rem);
+        }
+
+        .cs-item-text {
+            font-size: (14/16rem);
+            line-height: 1.5em;
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-ul {
+            width: 100%;
+            margin: 0 0 (24/16rem) 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: (12/16rem);
+        }
+
+        .cs-li {
+            font-size: var(--bodyFontSize);
+            list-style: none;
+            line-height: 1.5em;
+            width: 100%;
+            color: var(--bodyTextColor);
+            display: flex;
+            justify-content: flex-start;
+            /* push icon top the top so if the list item goes to two lines the icon stays at the top */
+            align-items: flex-start;
+            gap: (8/16rem);
+        }
+
+        .cs-button-solid {
+            font-size: (16/16rem);
+            line-height: 3.5em;
+            text-decoration: none;
+            font-weight: 700;
+            overflow: hidden;
+            width: auto;
+            margin: 0;
+            color: #fff;
+            padding: 0 (48/16rem);
+            background-color: var(--primary);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            transition: color 0.3s;
+
+            &:before {
+                content: "";
+                position: absolute;
+                display: block;
+                height: 100%;
+                width: 0%;
+                background: #1a1a1a;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                transition: width 0.3s;
+            }
+
+            &:hover {
+                color: var(--primary);
+            }
+
+            &:hover:before {
+                width: 100%;
+            }
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #sbs-1585 {
+        .cs-container {
+            max-width: (1280/16rem);
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: stretch;
+        }
+        .cs-content {
+            width: 50%;
+            max-width: (630/16rem);
+            /* prevents flexbox from squishing it */
+            flex: none;
+        }
+        .cs-card-group {
+            grid-template-columns: repeat(12, 1fr);
+        }
+        .cs-item {
+            grid-column: span 6;
+        }
+        .cs-picture {
+            height: auto;
+            min-height: (525/16rem);
+            /* sends it to the right in the 2nd position */
+            order: 2;
+        }
+    }
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #sbs-1585 {
+        .cs-content {
+            padding: (84/16rem) 0;
+            align-self: center;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #sbs-1585 {
+            .cs-topper {
+                color: var(--primary);
+            }
+
+            .cs-title,
+            .cs-li,
+            .cs-item-text {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-li,
+            .cs-item-text {
+                opacity: 0.8;
+            }
+
+            .cs-h3 {
+                color: var(--bodyTextColorWhite);
+            }
+        }
+    }
+}
+                                
+</style>

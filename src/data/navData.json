@@ -1,0 +1,87 @@
+[
+  {
+    "key": "Home",
+    "url": "/",
+    "children": []
+  },
+  {
+    "key": "Over ons",
+    "url": "/about/",
+    "children": []
+  },
+  {
+    "key": "Diensten",
+    "url": "/diensten/",
+    "children": [
+      {
+        "key": "Airconditioning",
+        "url": "/diensten/airconditioning/"
+      },
+      {
+        "key": "Airfinbanken",
+        "url": "/diensten/airfinbanken/"
+      },
+      {
+        "key": "Drycoolers",
+        "url": "/diensten/drycoolers/"
+      },
+      {
+        "key": "Diepte reiniging keuken & Sanitair",
+        "url": "/diensten/diepte-reiniging-keuken/"
+      },
+      {
+        "key": "Fancoil Units / Inductie Units",
+        "url": "/diensten/fancoil-units-inductie-units/"
+      },
+      {
+        "key": "Luchtverdeelslangen",
+        "url": "/diensten/luchtverdeelslangen/"
+      },
+      {
+        "key": "Zonnepanelen",
+        "url": "/diensten/zonnepanelen/"
+      },
+      {
+        "key": "Ruimte Desinfectie",
+        "url": "/diensten/ruimte-desinfectie/"
+      },
+      {
+        "key": "Koelcellen",
+        "url": "/diensten/koelcellen/"
+      },
+      {
+        "key": "Koelmeubelen",
+        "url": "/diensten/koelmeubelen/"
+      },
+      {
+        "key": "Luchtbehandelingskasten",
+        "url": "/diensten/luchtbehandelingskasten/"
+      },
+      {
+        "key": "Machinekamer",
+        "url": "/diensten/machinekamer/"
+      },
+      {
+        "key": "Ventilatoren",
+        "url": "/diensten/ventilatoren/"
+      },
+      {
+        "key": "Verdamper/luchtkoelers",
+        "url": "/diensten/verdamper-luchtkoelers/"
+      },
+      {
+        "key": "Warmtewisselaar",
+        "url": "/diensten/warmtewisselaar/"
+      },
+      {
+        "key": "Legionellabeheer",
+        "url": "/diensten/legionellabeheer/"
+      }
+    ]
+  },
+  {
+    "key": "Blog",
+    "url": "/blog/",
+    "children": []
+  }
+]
